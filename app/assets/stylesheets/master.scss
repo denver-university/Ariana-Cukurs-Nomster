@@ -30,7 +30,7 @@ body {
   margin-bottom: 0;
 }
 
-.navbar-inverse .navbar-brand {
+.navbar-brand {
   color: #DEAA1F;
   font-family: 'bearpawregular';
   font-size:26px;
@@ -79,7 +79,7 @@ blockquote p {
 
 .carousel-caption {
   font-family: 'bearpawregular';
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 100;
   text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -96,4 +96,8 @@ blockquote p {
   color: #DEAA1F;
   font-family: 'bearpawregular'; 
   font-size: 26px; 
+}
+
+.nav-link {
+  color: #DEAA1F;
 }
