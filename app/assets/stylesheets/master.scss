@@ -30,7 +30,7 @@ body {
   margin-bottom: 0;
 }
 
-.navbar-brand {
+.navbar-inverse .navbar-brand {
   color: #DEAA1F;
   font-family: 'bearpawregular';
   font-size:26px;
@@ -96,8 +96,4 @@ blockquote p {
   color: #DEAA1F;
   font-family: 'bearpawregular'; 
   font-size: 26px; 
-}
-
-.nav-link {
-  color: #DEAA1F;
 }
