@@ -55,7 +55,12 @@
   			</blockquote>
 		</div>
 	<% end %>
-	</div>
+  <% if place.photos.present? %>
+    <div class="col-12">
+      <b><%= @photo %></b>
+	  </div>
+  <% end%>
+  </div>
 <% end %>
 
 
