@@ -56,10 +56,12 @@
 		</div>
 	<% end %>
   <% if place.photos.present? %>
-    <div class="col-12">
-      <b><%= @photo %></b>
-	  </div>
-  <% end%>
+    <% if place.photos.last.picture.present? %>
+      <div class="col-12">
+        <b><%= image_tag place.photos.last.picture.url %></b>
+	    </div>
+    <% end%>
+  <% end %>
   </div>
 <% end %>
 
