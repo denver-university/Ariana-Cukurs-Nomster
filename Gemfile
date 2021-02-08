@@ -81,5 +81,5 @@ gem 'will_paginate', '~> 3.1.1'
 gem 'will_paginate-bootstrap' 
 #this is needed to add bootsrap style to pagination
 
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem 'fog-aws'
